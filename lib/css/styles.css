@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans';
+}
+
+#header {
+    background: white;
+    height: 75px;
+}
+
+#header a {
+    color: black;
+}
+
+#header img {
+    float: left;
+}
+
+#header span {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 150%;
+}
+
+#main {
+    margin-top: 0;
+    padding-top: 70px;
+}
+
+#sect {
+    background: #f0f0f0;
+    text-align: center;
+}
+
+#main h1 {
+    font-size: 300%;
+    margin-top: 0;
+}
+
+#main h3 {
+    color: #808080;
+}
+
+#upper {
+    padding: 50px;
+}
+
+#lower {
+    text-align: center;
+    padding: 50px;
+}
+
+#citizen {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#citizen div {
+    border: 5px solid transparent;
+    border-radius: 20px;
+    background-color: #658FED;
+    color: white;
+    margin: 20px;
+    width: 20vw;
+    padding: 10px;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+#citizen a {
+    text-decoration: none;
+}
